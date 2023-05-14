@@ -22,6 +22,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 cd myapp
+                python3 ProofOfConcept.py
                 python3 hello.py
                 python3 hello.py --name=Bas
                 '''
